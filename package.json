@@ -1,0 +1,51 @@
+{
+  "name": "react-typescript-storybook-example",
+  "version": "1.0.0",
+  "description": "react typescript storybook example",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode=development --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/react-typescript-storybook-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/react-typescript-storybook-example/issues"
+  },
+  "homepage": "https://github.com/postor/react-typescript-storybook-example#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@babel/runtime": "^7.17.8",
+    "@types/lodash.throttle": "^4.1.6",
+    "@types/react": "^17.0.41",
+    "@types/react-dom": "^17.0.14",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-auto-import": "^1.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "sb": "^6.4.19",
+    "typescript": "^4.6.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.1",
+    "formik": "^2.2.9",
+    "lodash.throttle": "^4.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.28.1"
+  }
+}
