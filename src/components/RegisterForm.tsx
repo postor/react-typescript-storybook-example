@@ -5,7 +5,6 @@ import { Consumer, FormField, Provider } from '../utils/form-tools'
 import Button from '../atoms/Button'
 import { useState } from 'react'
 import ErrorIcon from '@mui/icons-material/Error'
-import { Pending } from '@mui/icons-material';
 
 const RegisterForm = () => {
   let [submitting, setSubmitting] = useState(false)
