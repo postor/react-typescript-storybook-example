@@ -1,3 +1,6 @@
+const ReactDocgenTypescriptPlugin = require("@storybook/react-docgen-typescript-plugin").default;
+
+
 module.exports = {
   "stories": [
     "../src/**/*.stories.mdx",
@@ -11,15 +14,7 @@ module.exports = {
     "@storybook/addon-interactions"
   ],
   "framework": "@storybook/react",
-  // webpackFinal: async (config, { configType }) => {
-  //   config.module.rules.push({
-  //     test: /\.scss$/,
-  //     use: ['style-loader', 'css-loader', 'sass-loader'],
-  //     include: path.resolve(__dirname, '../'),
-  //   });
-
-  //   // Return the altered config
-  //   return config;
-  // },
-
+  plugins:[
+    new ReactDocgenTypescriptPlugin()
+  ]
 }
