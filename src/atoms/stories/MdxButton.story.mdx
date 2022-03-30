@@ -2,7 +2,7 @@ import { Canvas, Meta, Story } from '@storybook/addon-docs';
 
 import Button from '../MdxButton';
 
-<Meta title="atom/MdxButton" component={Button} />
+<Meta title="atoms/使用MDX文档" component={Button} />
 
 export const Template = (args) => <Button {...args} />;
 
@@ -11,3 +11,23 @@ export const Template = (args) => <Button {...args} />;
 
 text text text text text text text text text text text text text text text text text text text text 
 
+<Story
+  name="red"
+  args={{
+    color: 'red',
+    children:'button'
+  }}>
+  {Template.bind({})}
+</Story>
+
+
+text text text text text text text text text text text text text text text text text text text text 
+
+<Story
+  name="blue"
+  args={{
+    color: 'blue',
+    children:'button'
+  }}>
+  {Template.bind({})}
+</Story>
